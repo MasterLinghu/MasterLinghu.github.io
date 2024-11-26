@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: 'https://masterlinghu.github.io/'
+url: 'http://masterlinghu.github.io/'
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -64,7 +64,7 @@ index_generator:
   order_by: -date
 
 # Category & Tag
-default_category: uncategorized
+default_category: daily
 category_map:
 tag_map:
 
@@ -102,4 +102,4 @@ theme: tranquility
 deploy:
   type: 'git'
   repo: https://github.com/MasterLinghu/MasterLinghu.github.io.git
-  branch: master
+  branch: main
